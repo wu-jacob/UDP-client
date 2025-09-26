@@ -42,8 +42,8 @@ int main() {
             When getline receives EOF, it sets the failbit. This causes getline to enter a fail state.
             In this fail state, subsequent calls to getline will fail until the state is cleared.
             This means that we will be stuck in an infinite loop of failed getline calls.
-            break;
             */
+            break;
         }
 
         if (message == "quit") {
